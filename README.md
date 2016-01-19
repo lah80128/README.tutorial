@@ -34,6 +34,7 @@ Markdown支援的標題語法有兩種,一種為在行首加上\#字號
     ---
     --------
 上面四種表示方式,呈現出一樣的結果
+---
 ### <a name="4"/>字體變化 
 
     *斜體*
@@ -70,10 +71,10 @@ Markdown支援的標題語法有兩種,一種為在行首加上\#字號
 多個`>`代表不同引言層
 
     > 一閃一閃亮晶晶
-    > 滿天都是小星星
+    >> 滿天都是小星星
     
 > 一閃一閃亮晶晶         
-> 滿天都是小星星
+>> 滿天都是小星星
 
 ### <a name="7"/>連結 
 
@@ -90,6 +91,7 @@ I get 10 times more traffic from [Google] [1] than from [Yahoo] [2] or [MSN] [3]
 
     TAIWAN FLAG ![flag][id]
     [id]: http://thumbs.dreamstime.com/t/taiwan-flag-6333294.jpg "No.1"
-    
+ TAIWAN FLAG ![flag][id]
+ [id]: http://thumbs.dreamstime.com/t/taiwan-flag-6333294.jpg "No.1"
 ### <a name="8"/>參考網站 
 Markdown官方中文介紹: <http://markdown.tw/>
